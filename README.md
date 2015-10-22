@@ -1,4 +1,4 @@
-# SweatWorks Interview
+# SweatWorks Exam
 
 ## Instructions
 
