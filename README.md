@@ -5,7 +5,7 @@
 1. Fork this repo  
 2. Create a branch under your name
 3. Solve the test.
-4. Send a pull request into master.
+4. Send us a pull request.
 
 ## What the page should do
 
