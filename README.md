@@ -10,7 +10,7 @@
 ## What the page should do
 
 The test page should accept two numbers, and display a list of all the numbers from the first number up to (and including) the other number.  
-By default the list should display all of the numbers, but it should allow us to filter out the even and the uneven numbers by clicking some of the buttons in the page.  
+By default the list should display all of the numbers, but it should allow us to filter out the even and the odd numbers by clicking some of the buttons in the page.  
 The user should also be able to choose on which side of the page the numbers should be displayed, either the left side or the right side.  
 
 ### Important stuff
