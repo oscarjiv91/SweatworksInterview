@@ -27,3 +27,7 @@ html, body {
 .buttons-holder {
 	float: right;
 }
+
+.pull-right{
+	float: right
+}

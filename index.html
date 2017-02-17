@@ -9,24 +9,26 @@
 	<div class="content">
 		<header class="controls-holder container">
 			<div class="numbers-holder">
-				<input type="number" placeholder="Min number">
-				<input type="number" placeholder="Max number">
+				<input type="number" placeholder="Min number" ng-model="minNumber" ng-change="generateArray()">
+				<input type="number" placeholder="Max number" ng-model="maxNumber" ng-change="generateArray()">
 			</div>
 			<div class="buttons-holder">
-				<button>Show all numbers</button>
-				<button>Show even numbers</button>
-				<button>Show odd numbers</button>
+				<button ng-click="option = 'ALL'">Show all numbers</button>
+				<button ng-click="option = 'EVEN'">Show even numbers</button>
+				<button ng-click="option = 'ODD'">Show odd numbers</button>
 			</div>
 		</header>
 		<div class="results-space container">
 			<div class="buttons-holder">
-				<button>Display on the left</button>
-				<button>Display on the right</button>
+				<button ng-click="alignment = ''">Display on the left</button>
+				<button ng-click="alignment = 'pull-right'">Display on the right</button>
 			</div>
 		</div>
 
-		<div class="list">
+		<label>{{message}}<label>
+		<div class="list" ng-class="alignment">
 			<!-- INSERT THE NUMBERS HERE. YOU ARE ALLOWED THE MODIFY OTHER PARTS OF THE CODE -->
+			<numbers></numbers>
 		</div>
 	</div>
 </body>
